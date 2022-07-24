@@ -6,7 +6,7 @@ int main()
     int num,odd;
     while(1)
     {
-        printf("\n\nEnter the Even Number\n");
+        printf("\n\nEnter the number\n");
         scanf("%d",&num);
         switch(num%2)
         {
@@ -16,11 +16,11 @@ int main()
                break;
 
             case 1:
-               printf("%d is not an Even Number",num);
+               printf("Upper Nearest Odd Number of %d is %d",num,num);
                break;
 
             default:
-               printf("%d is not an Even Number",num);
+               printf("Upper Nearest Odd Number of %d is %d",num,num);
         }
     }
     return 0;
